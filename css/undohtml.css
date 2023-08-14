@@ -1,0 +1,38 @@
+/*
+	-- -- -- -- -- -- --
+	undohtml.css
+	Undo browser defaults
+
+	http://tantek.com/log/2004/09.html#d06t2354
+	-- -- -- -- -- -- --
+*/
+
+
+
+/* -- undo browser HTML defaults -- */
+:link,:visited {text-decoration: none;}
+ul,ol {list-style: none;}
+h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+a img,:link img,:visited img {border: none;}
+address {font-style: normal;}
+/*
+     FILE ARCHIVED ON 19:34:13 Jun 04, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:07:01 Aug 14, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 158.254
+  exclusion.robots: 0.248
+  exclusion.robots.policy: 0.234
+  cdx.remote: 0.082
+  esindex: 0.011
+  LoadShardBlock: 125.138 (3)
+  PetaboxLoader3.datanode: 158.05 (5)
+  load_resource: 1100.754 (2)
+  PetaboxLoader3.resolve: 997.879 (2)
+*/

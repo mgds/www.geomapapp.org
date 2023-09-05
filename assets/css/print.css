@@ -1,5 +1,5 @@
 /* create cross-browser defaults */
-@import url(undohtml.css);
+@import url(/css/undohtml.css);
 
 /*
 global elements
@@ -108,7 +108,7 @@ content area & common elements
 			border-bottom:1px dotted;
 			text-align:right;
 			font-size:0.85em;
-			background:transparent url(../imgs/top_icon.gif) top left no-repeat;
+			background:transparent url(/imgs/top_icon.gif) top left no-repeat;
 		}
 		
 		/* must go last to override any other settings */
@@ -131,7 +131,7 @@ footer
 	margin:0 auto 1em auto;
 	padding:0.8em 0 0 7em;
 	border:0;
-	background:transparent url(../imgs/footer_design.gif) top left no-repeat;
+	background:transparent url(/imgs/footer_design.gif) top left no-repeat;
 	text-align:center;
 	font-size:0.825em;
 	height:63px;
@@ -143,23 +143,3 @@ footer
 	#footer p.legal a{
 		margin:0 0.5em;
 	}
-/*
-     FILE ARCHIVED ON 21:32:58 Jun 01, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:43:02 Aug 14, 2023.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 254.933
-  exclusion.robots: 0.104
-  exclusion.robots.policy: 0.096
-  cdx.remote: 0.058
-  esindex: 0.008
-  LoadShardBlock: 129.27 (3)
-  PetaboxLoader3.datanode: 145.339 (5)
-  load_resource: 369.526 (2)
-  PetaboxLoader3.resolve: 277.631 (2)
-*/

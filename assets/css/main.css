@@ -380,9 +380,14 @@ ul.img_list{
 	width:13.5em;
 	float:right;
 }
-	#content #home_panel h3{ margin-top:0; }
-	#content #home_panel ul{ margin-bottom:2em; margin-left:2.5em; }
+#content #home_panel h3{ margin-top:0; }
+#content #home_panel ul{ margin-bottom:2em; margin-left:2.5em; }
 
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
 /*
  * portal layout items (content section, right side menu, data sets section)
  */
@@ -425,9 +430,20 @@ ul.img_list{
 			color:#666;
 		}
 
+#maintenance_message {
+	margin:5px 5px 20px 5px;
+	border:1px solid red;
+	font-size:1em;
+	font-style:italic;
+	background-color:#FFEEEE;
+	padding:5px;
+	color:red;
+	text-align:left;
+}
+
 #portal_content{
 	margin-left:15em;
-	min-height: 500px;
+	/*min-height: 500px; */
 	/* margin-bottom: 150px;; */
 }
 	#portal_content #mapclient{

@@ -21,18 +21,21 @@
                 <img src="/assets/imgs/GeoMapApp.png" alt="GeoMapApp"/>
             </h1>
             <h2>{{ page.title }}</h2>
-            <div id="portal_menu">
-                {% include gma_menu.html %}
-                <h3>Download Links</h3>
-                <ul>
-                    <li><a href="/UnixInstall.html">Unix/Linux</a></li>
-                    <li><a href="/MacInstall.html">Macintosh</a></li>
-                    <li><a href="/MSInstall.html">Windows</a></li>
-                    <li><a href="/ArchiveDownloads.html">Previous Versions</a></li>
-                </ul>
-            </div>
-            <div id="portal_content">
-                {{ content }}
+            <div class="clearfix">
+                {% include maintenance_message.html %}
+                <div id="portal_menu">
+                    {% include gma_menu.html %}
+                    <h3>Download Links</h3>
+                    <ul>
+                        <li><a href="/UnixInstall.html">Unix/Linux</a></li>
+                        <li><a href="/MacInstall.html">Macintosh</a></li>
+                        <li><a href="/MSInstall.html">Windows</a></li>
+                        <li><a href="/ArchiveDownloads.html">Previous Versions</a></li>
+                    </ul>
+                </div>
+                <div id="portal_content">
+                    {{ content }}
+                </div>
             </div>
             {% include footer.html %}
         </div>

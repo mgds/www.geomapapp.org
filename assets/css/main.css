@@ -22,12 +22,19 @@ body{
 .reddark-text {color: #CC0000}
 
 .first-word {
-  color: #009999;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
+	color: #009999;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
 }
 
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 
 #stats-wrapper{
     width: 850px;

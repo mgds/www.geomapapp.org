@@ -1,0 +1,96 @@
+---
+layout: default
+title: GeoMapApp WebStart Walkthrough
+---
+<p>
+	Java Web Start (also known as JavaWS or javaws) is a framework developed by Sun Microsystems that allows users to 
+	start application software for the Java Platform directly from the Internet using a web browser.
+	<br><br>
+	If you are experiencing issues with the Web Start launch read the following walkthrough.<br>
+	<li>Jump to webstart Walkthrough for <a href="#win">Windows</a>.</li>
+</p>
+<br>
+<h3><b>GeoMapApp Web Start: Mac OS</b></h3>
+<p>
+	<b>Step 1:</b>
+	<br>
+	Launch GeoMapApp from the link on our <a href="/">main</a> webpage.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_001.jpg" />
+	<b>Step 2:</b>
+	<br>
+	A dialog window should prompt you to either <b>open</b> or <b>save</b> a VirtualOcean.jnlp file. You must choose to 
+	open with 'Java Web Start', if you do not see this as the default option then proceed to Step 3. Otherwise if the 
+	option is present press ok and proceed to Step 7.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_002.jpg" />
+	<b>Step 3:</b>
+	<br>
+	Choose the 'Open with' option. Choose the 'Other' option and open with TextEdit.app.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_003.jpg" />
+	<b>Step 4:</b>
+	<br>
+	Open the Finder and go to Applications -> Utilities -> Java Preferences.app to launch the Java Preferences.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_004.jpg" />
+	<b>Step 5:</b>
+	<br>
+	Under the Network Tab click on View Cache Files
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_005.jpg" />
+	<b>Step 6:</b>
+	<br>
+	A new window should appear. Choose Show Applications from the top dropdown selection. Next click the GeoMapApp 
+	Icon then hit the green play button icon located on the top menu bar.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_006.jpg" />
+	<b>Step 7:</b>
+	<br>
+	Java Web Start is now running and launching the GeoMapApp application.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_007.jpg" />
+	<b>Step 8:</b>
+	<br>
+	You should allow both security cerficate prompts and GeoMapApp will start.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_008.jpg" />
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_009.jpg" />
+	<p>If you are still experiencing problems:
+		<ol>
+			<li>Save this jnlp file onto you desktop from Step 2.</li>
+			<li>Open the Terminal.app located in Applications -> Utilities -> Terminal.app.</li>
+			<li>Type the command below and press return. <blockquote><code>cd Desktop</code></blockquote></li>
+			<li>Type the next command below and press return <blockquote><code>javaws VirtualOcean.jnlp</code></blockquote></li>
+			<li>The webstart should now begin. Proceed to Step 6 and Step 7.</li>
+		</ol>
+	</p>
+</p>
+<a name="win" id="win"></a>
+<br><br>
+<h3><b>GeoMapApp Web Start: Windows 7</b></h3>
+<p>
+	<b>Step 1:</b>
+	<br>
+	Launch GeoMapApp from the link on our <a href="/">main</a> webpage.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_001.jpg" />
+	<b>Step 2:</b>
+	<br>
+	Java Web Start should automatically run and launch the GeoMapApp application.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_007.jpg" />
+	<b>Step 3:</b>
+	<br>
+	You should allow both security cerficate prompts and GeoMapApp will start.
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_008.jpg" />
+	<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_009.jpg" />
+	<p>If you are still experiencing problems:
+		<ol>
+			<li>
+				Open the Java Control Panel by going to Control Panel -> Programs -> Java.
+				<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_010.jpg" />
+			</li>
+			<li>
+				The Java Control Panael should have opened. Under the General tab in the Temporary Internet Files section click on 'View'.
+				<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_011.jpg" />
+			</li>
+			<li>
+				A new window should appear. Choose Show Applications from the top dropdown selection. Next click the GeoMapApp Icon then 
+				hit the green play button icon located on the top menu bar.
+				<img class='center-img' src="/assets/imgs/howTo/webstart/webstart_012.jpg" />
+			</li>
+		</ol>
+	</p>
+</p>
+<p style="text-align:right;"><a href="index.html">Back</p>

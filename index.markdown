@@ -81,7 +81,7 @@ title="Tonga Trench Earthquakes" width="200" height="160">
 <h3>Learn More About GeoMapApp</h3>
 <ul>
     <li>
-        View the GeoMapApp <a href="/tutorials/index.html">Video Tutorials</a>. 
+        View the GeoMapApp <a href="/tutorials/index.html" target="_blank">Video Tutorials</a>. 
     </li>
     <li>
         See our GeoMapApp <a href="/eNewsletters/index.html">Announcements</a>.

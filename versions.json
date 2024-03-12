@@ -1,0 +1,14 @@
+{
+  "GeoMapApp": {
+    "version":"3.7.2",
+    "release_date":"March 2024"
+  },
+  "GEBCO": {
+    "version":"GEBCO 2023",
+    "release_date":"2023"
+  },
+  "GMRT": {
+    "version":"4.2.0",
+    "release_date":"November 2023"
+  }
+}

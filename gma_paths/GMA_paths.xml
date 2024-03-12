@@ -1,0 +1,660 @@
+<GMA_paths>
+	<layer
+		name="ROOT_PATH"
+		url="https://app.geomapapp.org/">
+	</layer>
+	<layer
+		name="GMRT2_ROOT_PATH"
+		url="https://www.gmrt.org/">
+	</layer>
+
+	<layer
+		name="REPLACE_WITH_ROOT_URL"
+		url="https://app.geomapapp.org/">
+	</layer>
+
+	<layer
+		name="LOG_PATH"
+		url="gma_log/gma_log">
+	</layer>
+
+	<layer
+		name="PUBLIC_HOME_PATH"
+		url="http://www.geomapapp.org/">
+	</layer>
+
+	<layer
+		name="BRG_LOGFILE_QUERY"
+		url="http://brg.ldeo.columbia.edu/services/LogFile/">
+	</layer>
+
+	<layer
+		name="BRG_ROOT_PATH"
+		url="http://brg.ldeo.columbia.edu/">
+	</layer>
+
+	<layer
+		name="NEW_MENU_PATH_2015"
+		url="gma_menus/main_menu_new_2015.xml">
+	</layer>
+
+	<layer
+		name="MENU_PATH"
+		url="gma_menus/main_menu.xml">
+	</layer>
+
+	<layer
+		name="MENU_CACHE_PATH"
+		url="gma_menus/menu_updated.txt">
+	</layer>
+
+	<layer
+		name="PORTALS_CACHE_TEXT_PATH"
+		url="data/portals/default_portals.txt">
+	</layer>
+
+	<layer
+		name="SERVER_LIST"
+		url="gma_servers/server_list.dat">
+	</layer>
+
+	<layer
+		name="STARTUP_PATH"
+		url="gma_startup/">
+	</layer>
+
+	<layer
+		name="VERSION_PATH"
+		url="gma_version/">
+	</layer>
+
+	<layer
+		name="CONTRIBUTE_PATH"
+		url="https://www.marine-geo.org/submit/">
+	</layer>
+
+	<layer
+		name="DISCUSS_PATH"
+		url="http://geomapapp.org/mailman/listinfo/discuss_geomapapp.org">
+	</layer>
+
+	<layer
+		name="ANNOUNCE_PATH"
+		url="https://www.geomapapp.org/#subscribe">
+	</layer>
+
+	<layer name="HTML">
+		<layer
+			name="HTML_PATH"
+			url="gma_html/">
+		</layer>
+		<layer
+			name="LAYER_INTERFACE"
+			url="gma_html/UserGuide.htm#How_to_import_shapefiles">
+		</layer>
+		<layer
+			name="IMPORTING_DATA_HELP"
+			url="gma_html/Importing_Data.html">
+		</layer>
+		<layer
+			name="IMPORTING_SESSIONS_HELP"
+			url="gma_html/help/Sessions/index.html">
+		</layer>
+		<layer
+			name="DIGITIZER_HELP"
+			url="https://www.youtube.com/watch?v=ngwNcpa-FsE">
+		</layer>
+	</layer>
+
+	<layer
+		name="ALPHA_PATH"
+		url="gma_alpha/">
+	</layer>
+
+	<layer
+		name="CREDIT_PATH"
+		url="gma_credit/">
+	</layer>
+
+	<layer
+		name="CREDIT_PATH_URLS"
+		url="gma_credit/html/GMA_Credit_paths.xml">
+	</layer>
+
+	<layer
+		name="CREDIT_FLAG_PROPERTIES"
+		url="gma_credit/flags/displayFlags.properties">
+	</layer>
+
+	<layer
+		name="MARINE_GEO_PATH_URLS"
+		url="gma_paths/MARINE_GEO_paths.xml">
+	</layer>
+
+	<layer
+		name="PLACES_PATH"
+		url="gma_places/">
+	</layer>
+
+	<layer
+		name="SP_SHORE_PATH"
+		url="data/gmrt_tiles/sp/">
+	</layer>
+
+	<layer
+		name="WMS_SERVER_LIST"
+		url="gma_wms/wms_servers.dat">
+	</layer>
+
+	<layer name="DEV_GMRT2">
+		  <layer
+			   name="CREDIT"
+			   url="http://dev2.geomapapp.org/control/"/>
+		  <layer
+			   name="MERCATOR_TILE_PATH"
+			   url="http://dev2.geomapapp.org/merc_320/"/>
+		  <layer
+			   name="SP_TILE_PATH"
+			   url="http://dev2.geomapapp.org/SP_320/"/>
+		  <layer
+			   name="NP_TILE_PATH"
+			   url="http://dev2.geomapapp.org/NP_320/"/>
+		  <layer
+			   name="MERCATOR_GRID_TILE_PATH"
+			   url="http://dev2.geomapapp.org/merc_320/"/>
+		  <layer
+			   name="SP_GRID_TILE_PATH"
+			   url="http://dev2.geomapapp.org/SP_320/"/>
+		  <layer
+			   name="NP_GRID_TILE_PATH"
+			   url="http://dev2.geomapapp.org/NP_320/"/>
+		  <layer
+			   name="MB_CONTROL_MERC"
+			   url="http://dev2.geomapapp.org/control/mb_control_merc"/>
+		  <layer
+			   name="MB_CONTROL_SP"
+			   url="http://dev2.geomapapp.org/control/mb_control_SP"/>
+		  <layer
+			   name="MB_CONTROL_NP"
+			   url="http://dev2.geomapapp.org/control/mb_control_NP"/>
+	 </layer>
+
+	
+	<layer name="GMRT_LATEST">
+		<layer
+			name="CREDIT"
+			url="http://app.geomapapp.org/data/portals/mb/control_files/current"/>
+		<layer
+			name="MERCATOR_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/merc_320/"/>
+		<layer
+			name="SP_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/SP_320/"/>
+		<layer
+			name="NP_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/NP_320/"/>
+		<layer
+			name="VO_GRID_TILE_PATH"
+			url="http://gmrt.marine-geo.org/tiles/1.0/merc_320_1024/"/>
+		<layer
+			name="MERCATOR_GRID_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/merc_320/"/>
+		<layer
+			name="SP_GRID_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/SP_320/"/>
+		<layer
+			name="NP_GRID_TILE_PATH"
+			url="https://www.gmrt.org/tiles/current/NP_320/"/>
+		<layer
+			name="MB_CONTROL_MERC"
+			url="http://app.geomapapp.org/data/portals/mb/control_files/current/mb_control_merc"/>
+		<layer
+			name="MB_CONTROL_NP"
+			url="http://app.geomapapp.org/data/portals/mb/control_files/current/mb_control_NP"/>
+		<layer
+			name="MB_CONTROL_SP"
+			url="http://app.geomapapp.org/data/portals/mb/control_files/current/mb_control_SP"/>
+		<layer
+			name="MB_CONTROL_SHA1"
+			url="http://app.geomapapp.org/data/portals/mb/control_files/current/mb_control_sha1"/>
+	</layer>
+
+	<layer name="WFS">
+		<layer
+			name="SERVER_LIST"
+			url="gma_wfs/wfs_servers_new.dat">
+		</layer>
+
+		<layer
+			name="BBOX"
+			url="gma_wfs/bboxes.dat">
+		</layer>
+
+		<layer
+			name="GRID_IMAGE"
+			url="gma_wfs/wfsgridsimagemod3.jpg">
+		</layer>
+	</layer>
+
+	<layer name="icons">
+		<layer
+			name="ICON_PATH"
+			url="gma_icons/">
+		</layer>
+
+		<layer
+			name="GE_ICON_PATH"
+			url="gma_icons/icon.gif">
+		</layer>
+	</layer>
+
+	<layer
+		name="tiles">
+			<layer
+				name="GEOGRAPHIC_TILE_PATH"
+				url="data/gmrt_tiles/geographic/geographic_512/">
+				<!-- data/gmrt_tiles/geographic_512/ -->
+			</layer>
+
+			<layer
+				name="MERCATOR_TILE_PATH"
+				url="data/gmrt_tiles/merc/merc_320_1024/">
+				<!-- data/gmrt_tiles/merc/ -->
+			</layer>
+
+			<layer
+				name="NP_TILE_PATH"
+				url="data/gmrt_tiles/np/NP_320_50/">
+				<!-- data/gmrt_tiles/np/ -->
+			</layer>
+
+			<layer
+				name="SP_TILE_PATH"
+				url="data/gmrt_tiles/sp/SP_320_50/">
+				<!-- data/gmrt_tiles/sp/ -->
+			</layer>
+	</layer>
+
+	<layer name="global_grids">
+		<layer
+			name="NASA_ELEV_WMS" 
+			url="https://data.worldwind.arc.nasa.gov/elev?">
+		</layer>
+		<layer
+			name="GRAVITY"
+			url="data/global_tiles/merc/gravity_675/">
+		</layer>
+
+		<layer
+			name="GRAVITY_16"
+			url="data/global_tiles/merc/gravity_16_675/">
+		</layer>
+
+		<layer
+			name="GRAVITY_18"
+			url="data/global_tiles/merc/gravity_18_675/">
+		</layer>
+
+		<layer
+			name="GEOID"
+			url="data/global_tiles/merc/geoid_675/">
+		</layer>
+
+		<layer
+			name="TOPO_9"
+			url="data/global_tiles/merc/topo_9_675/">
+		</layer>
+
+		<layer
+			name="TOPO_10"
+			url="data/global_tiles/merc/topo_10_675/">
+		</layer>
+
+		<layer
+			name="TOPO_11"
+			url="data/global_tiles/merc/topo_11_675/">
+		</layer>
+
+		<layer
+			name="TOPO_12"
+			url="data/global_tiles/merc/topo_12_675/">
+		</layer>
+
+		<layer
+			name="TOPO_15"
+			url="data/global_tiles/merc/topo_15_675/">
+		</layer>
+
+		<layer
+			name="TOPO_16.1"
+			url="data/global_tiles/merc/topo_16.1_675/">
+		</layer>
+
+		<layer
+			name="OCEAN_AGES"
+			url="data/global_tiles/merc/ocean_ages_675/">
+		</layer>
+
+		<layer
+			name="SPREADING_ASYMMETRY"
+			url="data/global_tiles/merc/spreading_asymmetry_675/">
+		</layer>
+
+		<layer
+			name="SPREADING_RATE"
+			url="data/global_tiles/merc/spreading_rate_675/">
+		</layer>
+	</layer>
+
+	<layer
+		name="DSDP">
+			<layer
+				name="DSDP_PATH"
+				url="data/portals/dsdp/">
+			</layer>
+			<layer
+				name="DSDP_COLOR_PATH"
+				url="data/portals/dsdp/RGB/">
+			</layer>
+			<layer
+				name="STRATIGRAPHIC_RANGES"
+				url="data/portals/dsdp/timescales/StratigraphicRanges.jpg">
+			</layer>
+			<layer
+				name="JANUS_QUERY_PATH"
+				url="http://iodp.tamu.edu/janusweb/coring_summaries/holesumm.cgi">
+			</layer>
+
+			<layer
+				name="CHRONOS_PATH"
+				url="https://doi.org/10.1130/GES00009.1">
+			</layer>
+
+			<layer
+				name="DSDP_HOLE_LIST_PATH"
+				url="data/portals/dsdp/holelist.dat/">
+			</layer>
+
+			<layer
+				name="DSDP_EPOCH_NAMES_PATH"
+				url="data/portals/dsdp/timescales/ICS_age_ages.txt/">
+			</layer>
+
+			<layer
+				name="DSDP_AGE_DEPTH_PATH"
+				url="data/portals/dsdp/age_depth/">
+			</layer>
+
+			<layer
+				name="DSDP_DATABASE_PATH"
+				url="data/portals/dsdp/database/">
+			</layer>
+
+			<layer
+				name="DSDP_FAUNA_PATH"
+				url="data/portals/dsdp/fauna/">
+			</layer>
+
+			<layer
+				name="DSDP_PHOTOS_LIST_PATH"
+				url="data/portals/dsdp/PHOTOS_LOCAL/">
+			</layer>
+
+			<layer
+				name="DSDP_PHOTOS_DATA_PATH"
+				url="data/portals/dsdp/dsdp_photos_data/">
+			</layer>
+
+			<layer
+				name="DSDP_VCD_LIST_PATH"
+				url="data/portals/dsdp/ODP_VCD_LOCAL/">
+			</layer>
+
+			<layer
+				name="DSDP_VCD_DATA_PATH"
+				url="data/portals/dsdp/odp_vcd_data/">
+			</layer>
+
+			<layer
+				name="DSDP_INITIAL_REPORTS_PATH"
+				url="data/portals/dsdp/ir_volumes/">
+			</layer>
+
+			<layer
+				name="DSDP_BARREL_SHEETS_PATH"
+				url="data/portals/dsdp/barrel_sheets/">
+			</layer>
+	</layer>
+
+	<layer
+		name="PORTALS">
+			<layer
+				name="DATALINK_MB_ENTRIES"
+				url="data/portals/mb/merc/datalink_mb_entries.dat">
+			</layer>
+
+			<layer
+				name="PETDB_PATH"
+				url="data/portals/petdb/">
+			</layer>
+
+			<layer
+				name="PETDB_SEARCH_ROOT_PATH"
+				url="https://explore.earthchem.org/">
+			</layer>
+
+						<layer
+								   name="PETDB_SEARCH_STATION_PATH"
+								   url="https://explore.earthchem.org/station/">
+						</layer>
+
+						<layer
+								   name="PETDB_SEARCH_SPECIMEN_PATH"
+								   url="https://explore.earthchem.org/specimen/">
+						</layer>
+
+			<layer
+				name="PMEL_PATH"
+				url="https://www.pmel.noaa.gov/acoustics/">
+			</layer>
+			<layer
+				name="EARTHQUAKE_EPICENTER_PATH"
+				url="data/portals/eq_epicent/">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_EPICENTER_DATA"
+				url="data/portals/eq_epicent/seismicity.db">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_PATH"
+				url="data/portals/eq_fms_cmt/">
+			</layer>
+			
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_TILE_PATH"
+				url="data/portals/eq_fms_cmt/tiles/cmt_1976-may2012_zoom_">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_PATH"
+				url="data/portals/eq_fms_cmt/beachball_plot/">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_DATA"
+				url="data/portals/eq_fms_cmt/beachball_plot/CMTData_Jan1976_May2012.txt">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_DATA_V2"
+				url="data/portals/eq_fms_cmt/beachball_plot/CMTData_Jan1976_Aug2013.txt">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_DATA_V3"
+				url="data/portals/eq_fms_cmt/beachball_plot/parsed_CMT_final_solutions.txt">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_DENSITY"
+				url="data/portals/eq_fms_cmt/beachball_plot/density.txt">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_FOCAL_MECHANISMS_ZOOM"
+				url="data/portals/eq_fms_cmt/beachball_plot/zoom.txt">
+			</layer> 
+
+			<layer
+				name="EARTHQUAKE_PMEL_PATH"
+				url="data/portals/eq_seafloor/pmel/">
+			</layer>
+
+			<layer
+				name="EARTHQUAKE_REFORMATTED_PMEL_PATH"
+				url="data/portals/eq_seafloor/pmel/reformatted_data/">
+			</layer>
+
+			<layer
+				name="ISOCRONS_PATH"
+				url="data/portals/isochrons/">
+			</layer>
+
+			<layer
+				name="MB_LOOKUP"
+				url="data/portals/mb/mb_lookup/">
+			</layer>
+			<layer
+				name="NP_MB_CONTROL_PATH"
+				url="data/portals/mb/np/np_mb_control">
+			</layer>
+			<layer
+				name="SP_MB_CONTROL_PATH"
+				url="data/portals/mb/sp/sp_mb_control">
+			</layer>
+			<layer
+				name="MERC_MB_CONTROL_PATH"
+				url="data/portals/mb/merc/merc_mb_control327680">
+			</layer>
+
+			<layer
+				name="MULTI_CHANNEL_PATH"
+				url="data/portals/mcs/">
+			</layer>
+			<layer
+				name="MULTI_CHANNEL_EXP_LIST"
+				url="data/portals/mcs/expedition_list">
+			</layer>
+			
+			<layer
+				name="MGD77_PATH"
+				url="data/portals/mgd77/">
+			</layer>
+			<layer
+				name="MGD77_CONTROL_FILES"
+				url="data/portals/mgd77/control_files_list.txt">
+			</layer>
+			<layer
+				name="MGD77_DATA_LDEO"
+				url="data/portals/mgd77/ldeo-mgd77/data/">
+			</layer>
+			<layer
+				name="MGD77_DATA_NGDC"
+				url="data/portals/mgd77/ngdc-mgd77/data/">
+			</layer>
+			<layer
+				name="MGD77_DATA_ADGRAV"
+				url="data/portals/mgd77/usap-mgd77/data/">
+			</layer>
+			<layer
+				name="MGD77_DATA_SIO"
+				url="data/portals/mgd77/sioexplorer-mgd77/data/">
+			</layer>
+			<layer
+				name="RADAR_PATH"
+				url="data/portals/sp_radar/">
+			</layer>
+			<layer
+				name="RADAR_LOOKUP"
+				url="data/portals/sp_radar/radar_lookup/">
+			</layer>
+			<layer
+				name="RADAR_EXP_LIST"
+				url="data/portals/sp_radar/radar_lookup/expedition_list.txt">
+			</layer>
+			<layer
+				name="RADAR_BOUNDS"
+				url="data/portals/sp_radar/bounds">
+			</layer>
+			<layer
+				name="RADAR_CONTROL"
+				url="data/portals/sp_radar/radar_control">
+			</layer>
+			<layer
+				name="USGS_MULTI_CHANNEL_PATH"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_MCS/">
+			</layer>
+			<layer
+				name="USGS_MULTI_CHANNEL_EXP_LIST"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_MCS/expedition_list_USGS_MCS">
+			</layer>
+			<layer
+				name="USGS_SINGLE_CHANNEL_PATH"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_SCS/">
+			</layer>
+			<layer
+				name="USGS_SINGLE_CHANNEL_EXP_LIST"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_SCS/expedition_list_USGS_SCS">
+			</layer>
+			<layer
+				name="USGS_INDUSTRY_PATH"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_INDUSTRY/">
+			</layer>
+			<layer
+				name="USGS_INDUSTRY_EXP_LIST"
+				url="https://cmgds.marine.usgs.gov/gma/USGS_INDUSTRY/expedition_list_USGS_Industry">
+			</layer>
+			<layer
+				name="USGS_REFLECTION_PROFILE_PATH"
+				url="data/portals/mcs/USGS/">
+			</layer>
+			<layer
+				name="USGS_REFLECTION_PROFILE_EXP_LIST"
+				url="data/portals/mcs/USGS/expedition_list_USGS">
+			</layer>
+			<layer
+				name="SINGLE_CHANNEL_PATH"
+				url="data/portals/scs/">
+			</layer>
+			<layer
+				name="PHOTO_TRANSECTS_PATH"
+				url="data/portals/photo_trans/">
+			</layer>
+			<layer
+				name="ANTARCTIC_SDLS"
+				url="data/portals/mcs/sdls/">
+			</layer>
+			<layer
+				name="ANTARCTIC_SDLS_EXP_LIST"
+				url="data/portals/mcs/sdls/expedition_list">
+			</layer>
+			<layer
+				name="SHIP_PATH"
+				url="data/portals/ship/">
+			</layer>
+			<layer
+				name="SHIP_PATH_CONTROL"
+				url="data/portals/ship/control/">
+			</layer>
+			<layer
+				name="VELOCITY_VECTORS_PATH"
+				url="data/portals/velocity_vectors/">
+			</layer>
+			<layer
+				name="VELOCITY_VECTORS_DATA"
+				url="data/datalayers/geophysics/lithospheric_plates/plate_velocity/snaps_files/">
+			</layer>	
+	</layer>
+</GMA_paths>

@@ -97,7 +97,7 @@ title="Tonga Trench Earthquakes" width="200" height="160">
     </li>
 </ul>		
 <br>
-<h3>Join our Mailing List</h3>
+<h3 id="subscribe">Join our Mailing List</h3>
 <p>
     The GeoMapApp mailing list provides users with information on releases and updates. 
     It's easy to subscribe, just  

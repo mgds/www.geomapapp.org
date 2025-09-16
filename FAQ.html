@@ -30,13 +30,13 @@ title: GeoMapApp Frequently Asked Questions
 			<li><a href="#InstallIssues">I was told to delete my <i>.GMA</i> folder. How do I do that?</a></li>
 			<li><a href="#InstallIssues">Should I download and install GeoMapApp or run WebStart?</a></li>
 			<li><a href="#InstallIssues">Will GeoMapApp run on a Chromebook?</a></li>
-			<li><a href="#InstallIssues">The menus are tiny on my high-resolution display. Can that be fixed?</a></li>
 			</ul>
 
 		<h1>Menus</h1>
 
 			<ul>
-			<li><a href="#Menus">How often are new data sets added to GeoMapApp?</a></li>
+			<li><a href="#Menus">The menus are tiny on my high-resolution display. Can that be fixed?</a></li>
+<li><a href="#Menus">How often are new data sets added to GeoMapApp?</a></li>
 			<li><a href="#Menus">How do I search the menus?</a></li>
 			<li><a href="#Menus">Does the search function only apply to the displayed map area?</a></li>
 			<li><a href="#Menus">Some climatology menu layers no longer load. Why?</a></li>
@@ -182,8 +182,8 @@ title: GeoMapApp Frequently Asked Questions
 			with Java 8. So, downloading the default version should work right away. 
 			For PC and Linux/UNIX users, 
 			<a href="https://www.java.com/en/download/help/version_manual.xml">check the version of Java</a> 
-			installed on your computer. It needs to be Java 8 or higher. If running the "java -version" 
-			command (without the quotation marks) from a terminal window, look for a value of 1.8.something or higher. 
+			installed on your computer. It needs to be Java 8 or higher. If running the <code class="copyable gray_rounded_rect">java -version</code> 
+			command from a terminal window, look for a value of 1.8.something or higher. 
 			The latest version of Java 8 is <a href="https://java.com/en/download/">here</a>. 
 			Note that PC users with high-resolution monitors may need to install 
 			<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java 9 or higher</a>  
@@ -218,17 +218,22 @@ title: GeoMapApp Frequently Asked Questions
 			and restart GeoMapApp. It should now work.
 			</p>
 
-			<p> <b>I was told to delete my <i>.GMA</i> folder. How do I do that?</b> <br />
+<p> <b>I was told to delete my <i>.GMA</i> folder. How do I do that?</b> <br>
+  Before doing this, ensure that anything you want to save (such as fonts and saved places) is copied somewhere else.<br>
 			On a <b>PC</b>: Use a Windows navigator window to navigate to your home directory. 
 			Look for a folder called "<i>.GMA</i>" (dot GMA), and delete it. <br>
-			On a <b>Mac</b>: The hidden folder called "<i>.GMA</i>" (dot GMA) is not shown in the Finder. 
-			Instead, it must be found using a terminal window, as follows.<br>
-			In the Finder, go to Applications > Utilities > Terminal.app. 
-			A terminal window should appear. <br>
-			To get a list of all files (the ".GMA" folder should be listed), type: <i>ls -a</i> <br>
-			To remove the folder, type: <i>rm -r .GMA</i> <br>
-			To be sure it is gone, type: <i>ls -a</i></li> <br>
-			Re-start GeoMapApp.
+			  On a <b>Mac</b>: The hidden folder called "<i>.GMA</i>" (dot GMA) is not shown in the Finder by default. There are two ways to find it:
+			  <ol>
+			    <li>Use the <code class="gray_rounded_rect">shift+⌘+.</code> (shift, command, period) keyboard shortcut to toggle showing hidden files. Then, navigate to your home folder, select the .GMA folder, and use the keyboard shortcut <code class="gray_rounded_rect">⌘+delete</code> to remove the folder. Optionally, use <code class="gray_rounded_rect">shift+⌘+.</code> to hide hidden files again.</li>
+			    <li>Use the terminal, as follows (click each command to copy it to your clipboard):<ol style="list-style-type:decimal">
+				<li>Use Spotlight to search for Terminal, or in the Finder, open Applications > Utilities > Terminal (or Terminal.app). A Terminal window should appear.</li>
+				<li>The Terminal window should start in your home directory. If not, run the following command by typing it and hitting "return" or "enter": <code class="copyable gray_rounded_rect">cd</code></li>
+				<li>To get a list of all files and folders, run the following command by typing it and hitting "return" or "enter": <code class="copyable gray_rounded_rect">ls -A</code></li>
+				<li>To remove the folder, run <code class="copyable gray_rounded_rect">rm -r .GMA</code></li>
+				<li>To be sure it is gone, run <code class="copyable gray_rounded_rect">ls -A | grep "^\\.GMA$"</code>. If the output is empty, the folder is gone.</li>
+			    </ol></li>
+			  </ol>
+			Re-start GeoMapApp. This will recreate the .GMA folder in a default state. If you kept anything important by copying it elsewhere, copy it back now and re-start GeoMapApp again.
 			</p>
 
 			<p> <b>Should I download and install GeoMapApp or run WebStart?</b> <br />
@@ -237,10 +242,11 @@ title: GeoMapApp Frequently Asked Questions
 			only an administrator to install programs. So, we provide a browser-based 
 			<strong><a href="http://app.geomapapp.org/gma_webstart/GeoMapApp.jnlp">WebStart</a></strong> 
 			function to start GeoMapApp. The WebStart function requires that the browser is 
-			Java-enabled but a recent Java security issue was accompanied with an official 
+			Java-enabled but a Java security issue was accompanied with an official 
 			recommendation to disable Java within browsers. If WebStart does not work, it is 
 			likely that Java was disabled in your web browser, but you can still run GeoMapApp 
-			by downloading the regular version of GeoMapApp to your computer.
+			by downloading the regular version of GeoMapApp to your computer.<br><br>
+			If GeoMapApp WebStart is blocked by Java Security, add <a href="https://app.geomapapp.org/">https://app.geomapapp.org/</a> as an exception site in the "Security" tab of the Java Control Panel. To find the Java Control Panel, follow the instructions corresponding to the computer's operating system: <a href="https://www.java.com/en/download/help/mac_controlpanel.html">Mac</a>, <a href="https://www.java.com/en/download/help/win_controlpanel.html">Windows</a>. After that, an additional security warning may come up. If so, click "I accept the risk and want to run this application.", then "Run".
 			</p>
 
 			<p> <b>Will GeoMapApp run on a Chromebook?</b> <br />
@@ -251,14 +257,12 @@ title: GeoMapApp Frequently Asked Questions
 			3) Install GeoMapApp. We tested that in a virtual Chrome OS environment and it worked fine.
 			</p>
 
-			<p> <b>The menus are tiny on my high-resolution display. Can that be fixed?</b> <br />
-			On Windows machines with hi-res displays, you will need to install Java 9 or higher 
-			to get the menus back to their normal size. Java 9 or higher is available 
-			<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">here</a>.
-
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>
 
 		<h3><a name="Menus" id="Menus"></a>Menus</h3>
+
+			<p> <b>The menus are tiny on my high-resolution display. Can that be fixed?</b> <br />
+			As of GeoMapApp 3.7.6, the menu font and size are fully customizable by going to File > Preferences... > Menu Font.</p>
 			
 			<p> <b>How often are new data sets added to GeoMapApp?</b> <br />
 			The built-in data sets are updated and expanded continuously. 
@@ -305,20 +309,25 @@ title: GeoMapApp Frequently Asked Questions
 			In rare instances the menus bar disappears. This behaviour is related to an interrupted 
 			internet connection in which only a partial set of menus was downloaded. The partial menus 
 			must be removed to make way for a complete set. Try the following steps:<br>
-			<ol TYPE="A">
+			<ol TYPE="A" style="list-style-type:decimal">
 			<li>Close GeoMapApp. Check that you have a reliable internet connection.</li>
 			<li>Find and remove the <i>.GMA/menus_cache</i> folder:<br>
-			On a <b>PC</b>: Use a Windows navigator window to navigate to your home directory. 
+			On a <b>PC</b>: Use a Windows File Explorer window to navigate to your home directory. 
 			Look for a folder called "<i>.GMA</i>" (dot GMA). Navigate into the <i>.GMA</i> folder. 
 			Delete the "<i>menus_cache</i>" folder.<br>
-			On a <b>Mac</b>: The hidden folder called "<i>.GMA</i>" (dot GMA) is not shown in the Finder. 
-			Instead, it must be found using a terminal window, as follows.<br>
-			In the Finder, go to Applications > Utilities > Terminal.app. 
-			A terminal window should appear. <br>
-			To get a list of all files (the ".GMA" folder should be listed), type: <i>ls -a</i> <br>
-			To navigate into the hidden folder, type: <i>cd .GMA</i> <br>
-			To remove the menu cache, type: <i>rm -r menus_cache</i> <br>
-			To be sure it is gone, type: <i>ls -a</i></li>
+			  On a <b>Mac</b>: The hidden folder called "<i>.GMA</i>" (dot GMA) is not shown in the Finder by default. There are two ways to find it:
+			  <ol><li>Use the <code class="gray_rounded_rect">shift+⌘+.</code> (shift, command, period) keyboard shortcut to toggle showing hidden files in a given Finder window. Then, navigate to your home folder, go into the .GMA folder, select "menus_cache", and use the keyboard shortcut <code class="gray_rounded_rect">⌘+delete</code> to remove the folder. Optionally, use <code class="gray_rounded_rect">shift+⌘+.</code> to hide hidden files again.</li>
+			    <li> Use the terminal, as follows (click each command to copy it to your clipboard):</li>
+			    <ol style="list-style-type:decimal">
+			      <li>Use Spotlight to search for Terminal, or in the Finder, open Applications > Utilities > Terminal (or Terminal.app). A Terminal window should appear.</li>
+			      <li>The Terminal window should start in your home directory. If not, run the following command by typing it and hitting "return" or "enter": <code class="gray_rounded_rect copyable">cd</code></li>
+			      <li>To get a list of all files and folders, run the command: <code class="gray_rounded_rect copyable">ls -A</code></li>
+			      <li>To navigate into the hidden folder, run: <code class="gray_rounded_rect copyable">cd .GMA</code></li>
+			      <li>To see if the menu cache is present, run <code class="gray_rounded_rect copyable">ls</code> and see if there is a folder called "menus_cache".</li>
+			      <li>To remove the menu cache, run <code class="gray_rounded_rect copyable">rm -r menus_cache</code></li>
+			      <li>To be sure it is gone run <code class="gray_rounded_rect copyable">ls</code> again and ensure that "menus_cache" is no longer present.</li>
+			    </ol>
+			  </ol></li>
 			<li>Start GeoMapApp. It should take a minute or so 
 			for a fresh copy of all of the menu files to be pulled from the server. </li>
 			</ol>

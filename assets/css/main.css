@@ -733,4 +733,9 @@ footer
   #footer acronym {
 	cursor: help;
   }
-  
+
+  a.stealth {
+      text-decoration: none !important;
+      color: inherit !important;
+      border: none !important;
+  }

@@ -735,7 +735,7 @@ footer
   }
 
   a.stealth {
-      text-decoration: none !important;
+      text-decoration: inherit !important;
       color: inherit !important;
       border: none !important;
   }

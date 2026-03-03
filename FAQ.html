@@ -24,10 +24,7 @@ title: GeoMapApp Frequently Asked Questions
 
 			<ul>
 			<li><a href="#gmaCantStart">GeoMapApp won't start. What should I do?</a></li>
-			<li><a href="#whichJavaVersion">Which version of Java do I need to run GeoMapApp?</a></li>
-			<li><a href="#macJavaBundle">The default Mac download of GeoMapApp is bundled with Java. Why?</a></li>
-			<li><a href="#elCapitan">Installation on Mac OS 10.11 (El Capitan) fails. How should I fix it?</a></li>
-			<li><a href="#dotGma">I was told to delete my <i>.GMA</i> folder. How do I do that?</a></li>
+			<li><a href="#whichJavaVersion">Which version of Java do I need to run GeoMapApp?</a></li>			<li><a href="#dotGma">I was told to delete my <i>.GMA</i> folder. How do I do that?</a></li>
 			<li><a href="#webStart">Should I download and install GeoMapApp or run WebStart?</a></li>
 			<li><a href="#chromebook">Will GeoMapApp run on a Chromebook?</a></li>
 			<li><a href="#smallMenus">The menus are tiny on my high-resolution display. Can that be fixed?</a></li>
@@ -178,8 +175,8 @@ title: GeoMapApp Frequently Asked Questions
 
 			<p id="gmaCantStart"> <b>GeoMapApp won't start. What should I do?</b> <br />
 			GeoMapApp is a Java-based application and Java needs to be installed on your computer for 
-			GeoMapApp to run. For Mac users, the default downloaded version of GeoMapApp comes bundled 
-			with Java 8. So, downloading the default version should work right away. 
+			GeoMapApp to run. For Mac users, GeoMapApp comes bundled 
+			with Java 8, so it should work right away. 
 			For PC and Linux/UNIX users, 
 			<a href="https://www.java.com/en/download/help/version_manual.xml">check the version of Java</a> 
 			installed on your computer. It needs to be Java 8 or higher. If running the <code class="copyable gray_rounded_rect">java -version</code> 
@@ -202,20 +199,6 @@ title: GeoMapApp Frequently Asked Questions
 			Note that PC users with high-resolution monitors may need to install 
 			<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java 9 or higher</a>  
 			to get the correct font size in the menus.
-			</p>
-
-			<p id="macJavaBundle"> <b>The default Mac download of GeoMapApp is bundled with Java. Why?</b> <br />
-			For Mac users, the Java-bundled download of GeoMapApp includes Java 8 which avoids  
-			installation issues for some users. The bundled version requires about 160 MBytes 
-			of disk space. An unbundled version is available   
-			<a href="https://app.geomapapp.org/MapApp/GeoMapApp_NoJavaBundle.dmg">here</a>.
-			</p>
-
-			<p id="elCapitan"> <b>Installation on Mac OS 10.11 (El Capitan) fails. How should I fix it?</b> <br />
-			Some users reported problems starting GeoMapApp under Mac OS X El Capitan version 10.11. 
-			The following two-pronged approach fixes the issue: First, ensure that the latest El Capitan 
-			bug fixes have been installed. Next, delete your <i>.GMA</i> folder (see item below), 
-			and restart GeoMapApp. It should now work.
 			</p>
 
 <p id="dotGma"> <b>I was told to delete my <i>.GMA</i> folder. How do I do that?</b> <br>
@@ -251,10 +234,10 @@ title: GeoMapApp Frequently Asked Questions
 
 			<p id="chromebook"> <b>Will GeoMapApp run on a Chromebook?</b> <br />
 			Yes but you may need to to go through the following steps: 
-			(1) Install <a href="http://www.androidauthority.com/crouton-turn-your-chromebook-into-far-more-than-a-glorified-web-browser-663044/">Crouton</a> 
-			which in turn will install the Ubuntu version of Linux.
-			2) Install Java. 
-			3) Install GeoMapApp. We tested that in a virtual Chrome OS environment and it worked fine.
+			(1) Install <a href="http://www.androidauthority.com/crouton-turn-your-chromebook-into-far-more-than-a-glorified-web-browser-663044/">Crouton</a> or <a href="https://support.google.com/chromebook/answer/9145439?hl=en">Crostini</a>,
+			which in turn will install the Ubuntu or Debian version of Linux, respectively. Newer Chromebooks should use Crostini.
+			2) Install Java on your new Linux virtual machine. 
+			3) Copy the GeoMapApp jar (downloadable from <a href="UnixInstall.html">the UNIX/Linux Installation page</a>) to the Linux virtual machine.
 			</p>
 
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>

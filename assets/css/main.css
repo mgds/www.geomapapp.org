@@ -734,6 +734,10 @@ footer
 	cursor: help;
   }
 
+  a.stealth {
+      text-decoration: inherit !important;
+      color: inherit !important;
+      border: none !important;
   .gray_rounded_rect {
       background-color:lightgray;
       border-radius: 3px;

@@ -8,9 +8,44 @@
     <meta name="Copyright" content="Copyright (c) {{ 'now' | date: "%Y" }} Marine Geoscience Data System">
     <meta name="Author" content="MGDS Team, Columbia University">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" media="all" />
-	<link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script type="text/javascript">
+      function setup() {
+	  lastCopied = null;
+	  let copyables = Array.from(document.getElementsByClassName("copyable"));
+	  for(let c of copyables) {
+	      c.title = "Click to copy to clipboard";
+	      let innerHTML = c.innerHTML;
+	      c.addEventListener("click", function() {
+		  if(c.innerHTML !== "Copied!") {
+		      let copied = Array.from(document.getElementsByClassName("copied"));
+		      for(let d of copied) {
+			  d.title="Click to copy to clipboard";
+			  d.classList.remove("copied");
+			  d.classList.add("copyable");
+		      }
+		      navigator.clipboard.writeText(c.innerHTML).then(function(){
+			  c.title=`Copied to clipboard ("${c.innerHTML}")`;
+			  c.innerHTML = "Copied!";
+			  c.classList.remove("copyable");
+			  c.classList.add("copied");
+		      });
+		      setTimeout(function() {
+			  c.title = "Click to copy to clipboard";
+			  c.innerHTML = innerHTML;
+			  c.classList.remove("copied");
+			  c.classList.add("copyable");
+		      }, 1000);
+		  }
+	      });
+	  }
+	  document.body.addEventListener("focus", function(e) {
+	      console.log(e);
+	  });
+      }
+    </script>
 </head>
-<body>
+<body onload="setup()">
     <div id="wrapper">
         <div id="mgds-header">
             <h1><a title="Go to GeoMapApp Home" href="/">GeoMapApp</a></h1>

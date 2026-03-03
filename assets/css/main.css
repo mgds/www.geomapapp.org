@@ -738,4 +738,18 @@ footer
       text-decoration: inherit !important;
       color: inherit !important;
       border: none !important;
+  .gray_rounded_rect {
+      background-color:lightgray;
+      border-radius: 3px;
+      padding: 3px 5px;
+      border: 1px solid darkgray;
+  }
+
+  .copyable:hover {
+      background-color: lightsteelblue;
+      cursor: pointer;
+  }
+
+  .copied:hover {
+      background-color: lightsteelblue;
   }

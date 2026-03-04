@@ -233,12 +233,13 @@ title: GeoMapApp Frequently Asked Questions
 			</p>
 
 			<p id="chromebook"> <b>Will GeoMapApp run on a Chromebook?</b> <br />
-			Yes but you may need to to go through the following steps: <ol style="list-style-type: decimal">
+			Yes, but you may need to to go through the following steps: <ol style="list-style-type: decimal">
 			<li> Install <a href="http://www.androidauthority.com/crouton-turn-your-chromebook-into-far-more-than-a-glorified-web-browser-663044/">Crouton</a> or <a href="https://support.google.com/chromebook/answer/9145439?hl=en">Crostini</a>,
 			which in turn will install the Ubuntu or Debian version of Linux, respectively. Newer Chromebooks should use Crostini.</li>
 			<li>Install Java on your new Linux virtual machine. </li>
 			<li>Copy or move the GeoMapApp jar (downloadable from <a href="UnixInstall.html">the UNIX/Linux Installation page</a>) to the Linux virtual machine.</li>
-			</ol>
+			  </ol>
+			  At this point, you can use your new Linux terminal to navigate to the folder where GeoMapApp.jar is located and run the command <code class="copyable gray_rounded_rect">java -jar GeoMapApp.jar</code> to open GeoMapApp.
 			</p>
 
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>
@@ -405,7 +406,7 @@ title: GeoMapApp Frequently Asked Questions
 				<li>ESRI Binary grid (.hrd, .flt)</li>
 				<li>GRD98 (.G98, Big-Endian only)</li>
 				<li>ASCII Polar (.asc)</li>
-				<li>GeoTIFF</li>
+				<li>GeoTIFF (.tiff)</li>
 				</ul>
 				<li>Images: JPEG, PNG, TIFF</li>
 				<li>simple KML / KMZ files</li>
@@ -450,19 +451,19 @@ title: GeoMapApp Frequently Asked Questions
 			above for importing multiple grids at once.
 			
 			The second approach is to increase the memory allocated to running GeoMapApp. 
-			The default is between 512-1024 MBytes, but more memory may be required.
+			The default is between 512 and 1024 MBytes, but more memory may be required.
 			For that, the .jar version of GeoMapApp needs to be run from the command line. 
 			Mac and Windows users need to go the 
 			<a class="external" href="http://www.marine-geo.org/tools/maps_grids.php">GeoMapApp Linux/Unix download</a>
 			page to download the GeoMapApp.jar file. Once the .jar file is available, open 
 			a Terminal or Command Prompt window, as follows. 
 			For Windows users, use the keyboard shortcut <code class="gray_rounded_rect">⊞ Win+R</code> to open the "Run" dialog, then type "cmd" and hit "Enter"/"Return".
-			For Mac users, go to Finder > Applications > Utilities > Terminal. 
-			In the terminal command window, change directory to the location of the GeoMapApp.jar 
-			file (if it was downloaded to your Desktop, simply type "cd Desktop"). Then, type 
-			<i>java -jar -Xmx1000m GeoMapApp.jar</i> and press enter. The -Xmx option specifies the 
-			amount of memory that can be used by GeoMapApp (in this example, about 1 GByte was allocated). 
-			If that still is not enough memory, try allocating more memory. By using this memory allocation 
+			For Mac users, use Spotlight to search for "Terminal", or in the Finder, navigate to Applications > Utilities and open Terminal (or Terminal.app).
+			In the terminal or command prompt window, change directory to the location of the GeoMapApp.jar 
+			file using the <code class="gray_rounded_rect">cd</code> command (e.g. <code class="gray_rounded_rect copyable">cd Downloads</code>). Then, type 
+			<i>java -jar -Xmx2G GeoMapApp.jar</i> and press enter. The -Xmx option specifies the 
+			amount of memory that can be used by GeoMapApp (in this example, it will attempt to use up to about 2 gigabytes if needed). 
+			If that still is not enough memory, try restarting with a higher memory usage limit. With this
 			approach, grids up to 4 GigaBytes in size have been successfully imported to GeoMapApp.
 			
 			If you are trying to import one of the recognised formats but still are 
@@ -603,7 +604,6 @@ title: GeoMapApp Frequently Asked Questions
 			The speed of GeoMapApp depends mostly upon the quality of your internet connection. 
 			At some meetings and in hotels we have often found internet connectivity to be particularly slow. 
 			If you are using a slow wireless connection, try switching to a faster network or to a wired connection. 
-			We are testing a "Cloud" version of GeoMapApp.</p>
 
 
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>

@@ -1,0 +1,27 @@
+---
+layout: default
+title: GeoMapApp Chromebook Installation
+---
+<p>GeoMapApp is a Java desktop applicaton and it must be downloaded to your computer. This is not a default feature on Chromebooks, but there is a way. If you agree to the <a href="terms_of_use_gma.html">Terms of Use</a>, follow these instructions.</p>
+<p>For your first launch, you will first have to enable the Linux virtual machine and download Java:</p>
+<ol style="list-style-type: decimal">
+  <li>On the Chromebook, open the launcher (circle menu) and click Settings.</li>
+  <li>On the left sidebar, click "Advanced", then "Developers". You may have to scroll.</li>
+  <li>Where it says "Linux development environment", click the button that says "Turn on", then click "Next". ChromeOS may need to update to enable this.</li>
+  <li>Set the username and disk size you want (the default options will work) and click "Install". Wait for the installation to complete.</li>
+  <li>When the installation completes, a Terminal window will open. Optionally, right click (or the equivalent) on the Terminal icon in the shelf and select "Pin" for easy access in the future. You will need to open a Terminal window to run GeoMapApp in the Linux environment.</li>
+  <li>In the terminal window, type the following and press "Enter"/"Return" to install Java: <code class="gray_rounded_rect copyable">sudo apt-get install default-jdk</code> (click to copy to clipboard)</li>
+  <li>When asked if you want to continue using more disk space, agree by typing "y" (not case-sensitive) and press "Enter"/"Return"</li>
+  <li>Confirm that the installation worked by typing the following into your Terminal window, which should tell you which version of Java you installed, then pressing "Enter"/"Return": <code class="gray_rounded_rect copyable">java -version</code> (click to copy to clipboard)</li>
+  <li>Download the executable JAR from the <a href="/UnixInstall">GeoMapApp Linux download page</a>.</li>
+  <li>When the download finishes, click the "Show in folder" button.</li>
+  <li>Click and drag GeoMapApp.jar from that folder into where it says "Linux files" on the left side. This will copy it into the Linux development environment.</li>
+  <li>Back in the Terminal window, launch GeoMapApp by typing the following command, followed by the "Enter" or "Return" key (may take several seconds): <code class="gray_rounded_rect copyable">java -jar GeoMapApp.jar</code> (click to copy to clipboard)</li>
+</ol>
+<p>For subsequent launches, you will naturally have fewer steps to follow:</p>
+<ol style="list-style-type: decimal">
+  <li>Open the Terminal, either from the launcher or the shelf.</li>
+  <li>Under Linux, click where it says "penguin", which is the name of the Linux development environment you enabled earlier. This will open the Terminal window.</li>
+  <li>Type the following command in the Terminal window, then press "Enter"/"Return": <code class="gray_rounded_rect copyable">java -jar GeoMapApp.jar</code> (click to copy to clipboard)</li>
+  <li>Wait for GeoMapApp to launch; this may take several seconds.</li>
+</ol>

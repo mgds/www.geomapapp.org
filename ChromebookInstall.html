@@ -1,0 +1,25 @@
+---
+layout: default
+title: GeoMapApp Chromebook Installation
+---
+<p>GeoMapApp is a Java desktop applicaton and it must be downloaded to your computer. To install GeoMapApp on a Chromebook, follow these instructions.</p>
+<ol style="list-style-type: decimal">
+  <li>On the Chromebook, open the launcher (circle menu) and click Settings.</li>
+  <li>On the left sidebar, click "Advanced", then "Developers". Scroll if it is not in view.</li>
+  <li>Where it says "Linux development environment", click the button that says "Turn on", then click "Next". ChromeOS may need to update to enable this.</li>
+  <li>Set the username and disk size desired (the default options will work) and click "Install". Wait for the installation to complete.</li>
+  <li>When the installation completes, a Terminal window will open. Optionally, right click (or the equivalent) on the Terminal icon in the shelf and select "Pin" for easy access in the future. GeoMapApp on the Chromebook can only be launched from a Terminal window.</li>
+  <li>In the terminal window, type the following and press "Enter"/"Return" to install Java: <code class="gray_rounded_rect copyable">sudo apt-get install default-jdk</code> (click to copy to clipboard)</li>
+  <li>When asked if you want to continue using more disk space, agree by typing "y" (not case-sensitive) and press "Enter"/"Return"</li>
+  <li>Confirm that the installation worked by typing the following into the Terminal window, then pressing "Enter"/"Return", to display the version of Java that was installed: <code class="gray_rounded_rect copyable">java -version</code> (click to copy to clipboard)</li>
+  <li>Download the executable JAR from the <a href="/UnixInstall">GeoMapApp Linux download page</a>.</li>
+  <li>When the download finishes, click the "Show in folder" button.</li>
+  <li>Click and drag GeoMapApp.jar from that folder into where it says "Linux files" on the left side.</li>
+</ol>
+<p>Now that GeoMapApp is installed on the Chromebook, run it by following these instructions:</p>
+<ol style="list-style-type: decimal">
+  <li>If the Terminal is already open, skip to step 3. Otherwise, open a Terminal from either the launcher or the shelf.</li>
+  <li>Under Linux, click where it says "penguin" to open the Terminal window.</li>
+  <li>Type the following command in the Terminal window, then press "Enter"/"Return": <code class="gray_rounded_rect copyable">java -jar GeoMapApp.jar</code> (click to copy to clipboard)</li>
+  <li>Wait for GeoMapApp to open; this may take several seconds.</li>
+</ol>

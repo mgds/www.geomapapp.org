@@ -24,10 +24,7 @@ title: GeoMapApp Frequently Asked Questions
 
 			<ul>
 			<li><a href="#gmaCantStart">GeoMapApp won't start. What should I do?</a></li>
-			<li><a href="#whichJavaVersion">Which version of Java do I need to run GeoMapApp?</a></li>
-			<li><a href="#macJavaBundle">The default Mac download of GeoMapApp is bundled with Java. Why?</a></li>
-			<li><a href="#elCapitan">Installation on Mac OS 10.11 (El Capitan) fails. How should I fix it?</a></li>
-			<li><a href="#dotGma">I was told to delete my <i>.GMA</i> folder. How do I do that?</a></li>
+			<li><a href="#whichJavaVersion">Which version of Java do I need to run GeoMapApp?</a></li>			<li><a href="#dotGma">I was told to delete my <i>.GMA</i> folder. How do I do that?</a></li>
 			<li><a href="#webStart">Should I download and install GeoMapApp or run WebStart?</a></li>
 			<li><a href="#chromebook">Will GeoMapApp run on a Chromebook?</a></li>
 			<li><a href="#smallMenus">The menus are tiny on my high-resolution display. Can that be fixed?</a></li>
@@ -178,17 +175,13 @@ title: GeoMapApp Frequently Asked Questions
 
 			<p id="gmaCantStart"> <b>GeoMapApp won't start. What should I do?</b> <br />
 			GeoMapApp is a Java-based application and Java needs to be installed on your computer for 
-			GeoMapApp to run. For Mac users, the default downloaded version of GeoMapApp comes bundled 
-			with Java 8. So, downloading the default version should work right away. 
+			GeoMapApp to run. For Mac users, GeoMapApp comes bundled 
+			with Java 8, so it should work right away. 
 			For PC and Linux/UNIX users, 
 			<a href="https://www.java.com/en/download/help/version_manual.xml">check the version of Java</a> 
 			installed on your computer. It needs to be Java 8 or higher. If running the <code class="copyable gray_rounded_rect">java -version</code> 
 			command from a terminal window, look for a value of 1.8.something or higher. 
-			The latest version of Java 8 is <a href="https://java.com/en/download/">here</a>. 
-			Note that PC users with high-resolution monitors may need to install 
-			<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java 9 or higher</a>  
-			to get the correct font size in the menus.
-			</p>
+			The latest version of Java 8 is <a href="https://java.com/en/download/">here</a>.</p>
 
 
 			<p id="whichJavaVersion"> <b>Which version of Java do I need to run GeoMapApp?</b> <br />
@@ -202,20 +195,6 @@ title: GeoMapApp Frequently Asked Questions
 			Note that PC users with high-resolution monitors may need to install 
 			<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java 9 or higher</a>  
 			to get the correct font size in the menus.
-			</p>
-
-			<p id="macJavaBundle"> <b>The default Mac download of GeoMapApp is bundled with Java. Why?</b> <br />
-			For Mac users, the Java-bundled download of GeoMapApp includes Java 8 which avoids  
-			installation issues for some users. The bundled version requires about 160 MBytes 
-			of disk space. An unbundled version is available   
-			<a href="https://app.geomapapp.org/MapApp/GeoMapApp_NoJavaBundle.dmg">here</a>.
-			</p>
-
-			<p id="elCapitan"> <b>Installation on Mac OS 10.11 (El Capitan) fails. How should I fix it?</b> <br />
-			Some users reported problems starting GeoMapApp under Mac OS X El Capitan version 10.11. 
-			The following two-pronged approach fixes the issue: First, ensure that the latest El Capitan 
-			bug fixes have been installed. Next, delete your <i>.GMA</i> folder (see item below), 
-			and restart GeoMapApp. It should now work.
 			</p>
 
 <p id="dotGma"> <b>I was told to delete my <i>.GMA</i> folder. How do I do that?</b> <br>
@@ -250,12 +229,7 @@ title: GeoMapApp Frequently Asked Questions
 			</p>
 
 			<p id="chromebook"> <b>Will GeoMapApp run on a Chromebook?</b> <br />
-			Yes but you may need to to go through the following steps: 
-			(1) Install <a href="http://www.androidauthority.com/crouton-turn-your-chromebook-into-far-more-than-a-glorified-web-browser-663044/">Crouton</a> 
-			which in turn will install the Ubuntu version of Linux.
-			2) Install Java. 
-			3) Install GeoMapApp. We tested that in a virtual Chrome OS environment and it worked fine.
-			</p>
+			Yes, but you may need to to go through the installation steps outlined <a href="/ChromebookInstall.html">here</a>.</p>
 
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>
 
@@ -405,7 +379,7 @@ title: GeoMapApp Frequently Asked Questions
 			Yes! GeoMapApp allows the following data formats to be imported: 
 			Grid files, tabular data and spreadsheets, shapefiles, images, WFS and WMS.</p>
 
-			<p id="importDataFormats"> <b> What formats of data files and images can be imported to GeoMapApp?</b> </p>
+			<p id="importDataFormats"> <b> Which formats of data files and images can be imported in GeoMapApp?</b> </p>
 			<ul>
 				<li>ASCII (text) files:</li>
 				<ul>
@@ -421,11 +395,12 @@ title: GeoMapApp Frequently Asked Questions
 				<li>ESRI Binary grid (.hrd, .flt)</li>
 				<li>GRD98 (.G98, Big-Endian only)</li>
 				<li>ASCII Polar (.asc)</li>
+				<li>GeoTIFF (.tiff)</li>
 				</ul>
-				<li>Images: JPEG, PNG, TIFF</li>
+				<li>Images: JPEG, PNG, TIFF, GeoTIFF</li>
 				<li>simple KML / KMZ files</li>
 				<li>Shapefile (.shp)</li>
-				<li>Data tables (ASCII and Excel (tm) spreadsheets. See above).</li>
+				<li>Data tables (ASCII and Excel spreadsheets. See above)</li>
 			</ul>
 
 			<p id="proprietaryData"> <b> Can a proprietary grid be viewed privately?</b> <br /> 
@@ -465,20 +440,19 @@ title: GeoMapApp Frequently Asked Questions
 			above for importing multiple grids at once.
 			
 			The second approach is to increase the memory allocated to running GeoMapApp. 
-			The default is between 512-1024 MBytes, but more memory may be required.
+			The default is between 512 and 1024 MBytes, but more memory may be required.
 			For that, the .jar version of GeoMapApp needs to be run from the command line. 
 			Mac and Windows users need to go the 
 			<a class="external" href="http://www.marine-geo.org/tools/maps_grids.php">GeoMapApp Linux/Unix download</a>
 			page to download the GeoMapApp.jar file. Once the .jar file is available, open 
-			a terminal command window, as follows. 
-			For Windows 7 users, go to the Start menu, type "cmd" in the search box and select 
-			the "cmd" program from the list. 
-			For Mac users, go to Finder > Applications > Utilities > Terminal. 
-			In the terminal command window, change directory to the location of the GeoMapApp.jar 
-			file (if it was downloaded to your Desktop, simply type "cd Desktop"). Then, type 
-			<i>java -jar -Xmx1000m GeoMapApp.jar</i> and press enter. The -Xmx option specifies the 
-			amount of memory that can be used by GeoMapApp (in this example, about 1 GByte was allocated). 
-			If that still is not enough memory, try allocating more memory. By using this memory allocation 
+			a Terminal or Command Prompt window, as follows. 
+			For Windows users, use the keyboard shortcut <code class="gray_rounded_rect">⊞ Win+R</code> to open the "Run" dialog, then type "cmd" and hit "Enter"/"Return".
+			For Mac users, use Spotlight to search for "Terminal", or in the Finder, navigate to Applications > Utilities and open Terminal (or Terminal.app).
+			In the terminal or command prompt window, change directory to the location of the GeoMapApp.jar 
+			file using the <code class="gray_rounded_rect">cd</code> command (e.g. <code class="gray_rounded_rect copyable">cd Downloads</code>). Then, type 
+			<i>java -jar -Xmx2G GeoMapApp.jar</i> and press enter. The -Xmx option specifies the 
+			amount of memory that can be used by GeoMapApp (in this example, it will attempt to use up to about 2 gigabytes if needed). 
+			If that still is not enough memory, try restarting with a higher memory usage limit. With this
 			approach, grids up to 4 GigaBytes in size have been successfully imported to GeoMapApp.
 			
 			If you are trying to import one of the recognised formats but still are 
@@ -619,7 +593,6 @@ title: GeoMapApp Frequently Asked Questions
 			The speed of GeoMapApp depends mostly upon the quality of your internet connection. 
 			At some meetings and in hotels we have often found internet connectivity to be particularly slow. 
 			If you are using a slow wireless connection, try switching to a faster network or to a wired connection. 
-			We are testing a "Cloud" version of GeoMapApp.</p>
 
 
 		<p style="text-align: right;"><a class="top" href="#top">Back to top</a></p>

@@ -9,8 +9,8 @@ title: GeoMapApp
 <div style="text-align:center;">
     <p>
         <span style="font-size:1.3em;font-weight:bold;">The current version of GeoMapApp is</span>
-        <span style="font-size:1.4em">3.7.6</span>
-        (Released September 2025)
+        <span style="font-size:1.4em">3.7.7</span>
+        (Released March 2026)
     </p>
 </div>
 

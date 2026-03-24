@@ -30,6 +30,7 @@ title: GeoMapApp Development History
 </table>
             <br>
             <strong>Version&nbsp;&nbsp;
+	      <a href="#p377">3.7.7</a>&nbsp;&nbsp;
 	      <a href="#p376">3.7.6</a>&nbsp;&nbsp;
 	      <a href="#p375">3.7.5</a>&nbsp;&nbsp;
 	      <a href="#p374">3.7.4</a>&nbsp;&nbsp;
@@ -104,6 +105,40 @@ title: GeoMapApp Development History
                   <td style="vertical-align: top; background-color: rgb(255, 224, 255);  width: 10%;">&nbsp;Map<br></td>
                   <td style="vertical-align: top; background-color: rgb(255, 224, 255); text-align: center;  width: 75%;">Notes<br></td>
                 </tr>
+		<!-- 3.7.7 -->
+		<tr>
+                    <td style="vertical-align: top; background-color: rgb(255, 255, 255);">03/25/2026</td>
+                    <td style="vertical-align: top; background-color: rgb(255, 255, 255);">
+                    <div align="center">3.7.7</div>
+                    </td>
+                    <td style="vertical-align: top; background-color: rgb(255, 255, 255);">
+                    <div align="center">M+N+S<a name="p377" id="p377"></a></div>
+                    </td>
+                    <td style="vertical-align: top; background-color: rgb(255, 255, 255);">
+                    <div align="center"><strong>GeoMapApp 3.7.7</strong></div>
+                    </td>
+		</tr>
+		<tr>
+                    <td style="vertical-align: top; background-color: rgb(255, 255, 255);" colspan=3></td>
+                    <td style="vertical-align: top; background-color: rgb(195, 255, 255));">
+                    <p><strong>Bug Fixes:</strong></p>
+                    <ol style="list-style-type: decimal;">
+                      <li>Shapefiles in geographic, UTM, and other projections can now be accurately imported.</li>
+		      <li>An issue detecting rounded No-Data values has been fixed.</li>
+		      <li>GeoTIFF grids in World Mercator projection are now correctly identified.</li>
+		      <li>Switching the longitude range from the default ±180° to 0-360° now works correctly.</li>
+		      <li>For built-in gridded data sets, the Z units are now correctly identified.</li>
+                    </ol>
+                    <p><strong>Enhancements:</strong></p>
+                    <ol style="list-style-type: decimal;">
+		      <li>To reflect the larger memory size of modern laptop and desktop computers, the maximum memory allocation has been increased for better handling of large data sets.</li>
+		      <li>Added a "Cruise Info" button linked to cruise-level metadata.</li>
+		      <li>Improvements to the portal for the Antarctica Gamburtsev Province (AGAP) and Lake Vostok radar data surveys.</li>
+		      <li>Improved the default locations of pop-up windows.</li>
+		      <li>(Beta) When importing (unrotated) GeoTIFF images via File > Add Image Overlay, the WESN is automatically determined, and converted to latitude/longitude if appropriate.</li>
+                    </ol>
+                    </td>
+		</tr>
 		<!-- 3.7.6 -->
 		<tr>
                     <td style="vertical-align: top; background-color: rgb(255, 255, 255);">09/15/2025</td>
@@ -111,7 +146,7 @@ title: GeoMapApp Development History
                     <div align="center">3.7.6</div>
                     </td>
                     <td style="vertical-align: top; background-color: rgb(255, 255, 255);">
-                    <div align="center">M+N+S<a name="p375" id="p376"></a></div>
+                    <div align="center">M+N+S<a name="p376" id="p376"></a></div>
                     </td>
                     <td style="vertical-align: top; background-color: rgb(255, 255, 255);">
                     <div align="center"><strong>GeoMapApp 3.7.6</strong></div>

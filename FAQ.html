@@ -439,8 +439,8 @@ title: GeoMapApp Frequently Asked Questions
 			First, you could split the large grid into pieces. Then simply use the instructions 
 			above for importing multiple grids at once.
 			
-			The second approach is to increase the memory allocated to running GeoMapApp. 
-			The default is between 512 and 1024 MBytes, but more memory may be required.
+			The second approach is to increase the memory allocated to GeoMapApp. 
+			The default is between 512 megabytes and 2 gigabytes, but more memory may be required.
 			For that, the .jar version of GeoMapApp needs to be run from the command line. 
 			Mac and Windows users need to go the 
 			<a class="external" href="http://www.marine-geo.org/tools/maps_grids.php">GeoMapApp Linux/Unix download</a>
@@ -450,10 +450,11 @@ title: GeoMapApp Frequently Asked Questions
 			For Mac users, use Spotlight to search for "Terminal", or in the Finder, navigate to Applications > Utilities and open Terminal (or Terminal.app).
 			In the terminal or command prompt window, change directory to the location of the GeoMapApp.jar 
 			file using the <code class="gray_rounded_rect">cd</code> command (e.g. <code class="gray_rounded_rect copyable">cd Downloads</code>). Then, type 
-			<i>java -jar -Xmx2G GeoMapApp.jar</i> and press enter. The -Xmx option specifies the 
+			<code class="gray_rounded_rect copyable">java -jar -Xmx2G GeoMapApp.jar</code> and press enter. The <code>-Xmx</code> option specifies the 
 			amount of memory that can be used by GeoMapApp (in this example, it will attempt to use up to about 2 gigabytes if needed). 
 			If that still is not enough memory, try restarting with a higher memory usage limit. With this
-			approach, grids up to 4 GigaBytes in size have been successfully imported to GeoMapApp.
+			approach, grids up to 4 gigabytes in size have been successfully imported to GeoMapApp.
+			If your computer cannot allocate 2 gigabytes of memory, you can adjust down as well.
 			
 			If you are trying to import one of the recognised formats but still are 
 			having problems, please <a href="mailto:info@marine-geo.org">tell us</a> 

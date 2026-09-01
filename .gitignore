@@ -6,3 +6,5 @@ _site
 vendor
 **/*~
 start_server.sh
+**/*.bak
+**/.\!*
